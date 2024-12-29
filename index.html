@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+</head>
+<body>
+
+
+
+    <!-- header part -->
+
+<!-- Top Banner -->
+<div class="top-banner">
+    <p>Sign up and get 20% off your first order. <a href="#">Sign Up Now</a></p>
+    <span class="close-banner"><img src="cancel-img.svg"/></span>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="side-open-icon.svg" alt="side-bar" class="side-bar"/>
+        <img src="logo-img.svg" alt="SHOP.CO Logo" />
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="nav">
+        <ul>
+          <li class="dropdown">
+            <a href="#" class="dropdown-btn" onclick="toggleMegaMenu()">Shop <span>&#x25BE;</span></a>
+            <!-- Mega Menu -->
+            <div class="mega-menu" id="megaMenu">
+              <div class="menu-column">
+                <h4>Clothing</h4>
+                <ul>
+                  <li><a href="#">Men's Clothing</a></li>
+                  <li><a href="#">Women's Clothing</a></li>
+                  <li><a href="#">Kid's Clothing</a></li>
+                </ul>
+              </div>
+              <div class="menu-column">
+                <h4>Accessories</h4>
+                <ul>
+                  <li><a href="#">Watches</a></li>
+                  <li><a href="#">Jewelry</a></li>
+                  <li><a href="#">Bags</a></li>
+                </ul>
+              </div>
+        
+              <div class="menu-column">
+                <h4>Home & Living</h4>
+                <ul>
+                  <li><a href="#">Furniture</a></li>
+                  <li><a href="#">Decor</a></li>
+                  <li><a href="#">Kitchenware</a></li>
+                </ul>
+              </div>
+
+            </div class=shop-co-sidepart>
+          </li>
+          <li><a href="#">On Sale</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Brands</a></li>
+
+         
+        </ul>
+     
+      </nav>
+
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products...">
+      </div>
+
+      <!-- Icons -->
+      <div class="icons">
+        <img src="search-icon.svg" alt="search icon" class="search-icon" />
+        <img src="cart&user-img.svg" alt="Cart&user Icon" class="cart-user-icon">
+      </div>
+    </div>
+  </header>
+
+  <script>
+    function toggleMegaMenu() {
+      const megaMenu = document.getElementById('megaMenu');
+      megaMenu.style.display = megaMenu.style.display === 'flex' ? 'none' : 'flex';
+    }
+  </script>
+
+
+    <!-- header part ends here -->
+
+    <!-- hero section -->
+
+    <section class="hero-section">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary"><b>FIND CLOTHES THAT MATCHES YOUR STYLE </b></h1>
+          <p class="hero-description">Browse through our diverse range of meticulously
+             crafted garments,designed to bring out your individuality and cater to
+              your sense of style.
+          </p>
+      
+          <a href="#" class="shop-now-btn">Shop Now</a>
+
+
+     <div class="numerical-part">
+
+      
+<div class="numerical-part1">
+        <div class="child-div">
+            <h2 class="numbers">200+</h2>
+          <p class="number-description">International Brands</p>
+        </div>
+<!-- child div ends here -->
+        <div class="child-div">
+          <h2 class="numbers">30,000+</h2>
+          <p class="number-description">Happy Customers</p>
+         </div>
+         </div>
+<!-- child div ends here -->
+ <div class="numerical-part2">
+        <div class="child-div">
+            <h2 class="numbers">2,000+</h2>
+            <p class="number-description">High-Quality Products</p>
+          </div>
+          </div>
+<!-- child div ends here -->
+       </div>
+
+      </div>
+<!-- numerical div ends here -->
+
+      <div class="hero-img-box">
+        <img src="model-img.png" class="hero-img" alt="models posing" />
+    </div>
+        </div>
+        
+     </div>     
+     <!-- hero dic ends here -->
+    </section>
+<!-- hero section ends here -->
+
+
+ <!-- brands nav bar  -->
+    <nav class="brands-nav-bar">
+        <img src="versace-img.svg" class="brand1" alt="versace"/>
+        <img src="zara-logo.svg" class="brand2" alt="zara"/>
+        <img src="gucci-logo.svg" class="brand3" alt="gucci"/>
+        <img src="prada-logo.svg" class="brand4" alt="prada"/>
+        <img src="Ck-logo.svg" class="brand5" alt="calvin Klein"/>
+    </nav>
+<!-- brands nav bar ends here -->
+
+
+<!-- new arrival  -->
+
+<h1 class="new-arrival"> NEW ARRIVAL</h1>
+
+<div class="new-arrival-clothes">
+
+<div class="clothes">
+    <img src="black-Tshirt.svg" class="clothes-img" alt="black tshirt" />
+    <h2 class="clothes-description">T-shirt with Tape Details</h2>
+    <p class="ratings"><img src="review.svg" alt="ratings" />4.5/5</p>
+    <h2 class="price">$120</h2>
+</div>
+
+<div class="clothes">
+    <img src="skinny-jeans.svg" class="clothes-img" alt="skinny jeans" />
+    <h2 class="clothes-description">Skinny Fit Jeans</h2>
+    <p class="ratings"><img src="review.svg" alt="ratings" />3.5/5</p>
+    <h2 class="price">$240 
+        <del class="discount">$260</del> 
+         <button class="discount-percentage">-30%</button>
+     </h2>
+</div>
+
+<div class="clothes">
+    <img src="shirt.svg" class="clothes-img" alt="shirt" />
+    <h2 class="clothes-description">Checkered Shirt</h2>
+    <p class="ratings"><img src="review.svg" alt="ratings" />4.5/5</p>
+    <h2 class="price">$180</h2>
+</div>
+
+<div class="clothes">
+    <img src="stripped-Tshirt.svg".svg" class="clothes-img" alt="stripped Tshirt" />
+    <h2 class="clothes-description">Sleeve striped T-shirt</h2>
+    <p class="ratings"><img src="review.svg" alt="ratings" />4.5/5</p>
+    <h2 class="price">$130 
+        <del class="discount">$160</del> 
+         <button class="discount-percentage">30%</button> 
+     </h2>
+</div>
+
+</div>
+<div class="view-all-button">
+    <button class="view-all-btn">View All</button>
+</div>
+
+<hr class="break-line1">
+
+
+<!-- new arrival ends here -->
+
+
+<!-- top selling  -->
+
+<h1 class="top-selling"> TOP SELLING</h1>
+
+<div class="top-selling-clothes">
+
+    <div class="clothes">
+        <img src="green-shirt.svg" class="clothes-img" alt="green shirt" />
+        <h2 class="clothes-description">Vertical Stripped Shirt</h2>
+        <p class="ratings"><img src="review.svg" alt="ratings" />5.0/5</p>
+        <h2 class="price">$212
+            <del class="discount">$232</del> 
+            <button class="discount-percentage">-20%</button>
+        </h2>
+    </div>
+    
+    <div class="clothes">
+        <img src="orange-tshirt.svg" class="clothes-img" alt="orange-tshirt" />
+        <h2 class="clothes-description">Courage Graphic T-shirt</h2>
+        <p class="ratings"><img src="review.svg" alt="ratings" />4.0/5</p>
+        <h2 class="price">$145</h2>
+    </div>
+    
+    <div class="clothes">
+        <img src="shorts.svg" class="clothes-img" alt="shorts" />
+        <h2 class="clothes-description">Loose Fit Bermuda Shorts</h2>
+        <p class="ratings"><img src="review.svg" alt="ratings" />3.0/5</p>
+        <h2 class="price">$80</h2>
+    </div>
+    
+    <div class="clothes">
+        <img src="black-jeans.svg".svg" class="clothes-img" alt="black-jeans" />
+        <h2 class="clothes-description">Faded Skinny Jeans</h2>
+        <p class="ratings"><img src="review.svg" alt="ratings" />4.5/5</p>
+        <h2 class="price">$210</h2>
+    </div>
+    
+    </div>
+    <div class="view-all-button">
+        <button class="view-all-btn">View All</button>
+    </div>
+    <!-- top selling ends here  -->
+
+ <!-- browse by styles -->
+
+    <section class="browse_by_dress-style">
+        <h1 class="heading-styles">BROWSE BY DRESS STYLE</h1>
+
+        <div class="styles-main_container">
+
+            <div class="part1">
+            <div class="styles">
+           <a href="#" class="styles-img">
+             <img src="casual.svg" class="casual-img" alt="casual" />
+             </a>
+            </div>
+
+            <div class="styles">
+                <a href="#" class="styles-img">
+                    <img src="formal.svg" class="formal-img" alt="formal" />
+                </a>
+            </div>
+            </div>
+
+
+            <div class="part2" >
+            <div class="styles">
+                <a href="#" class="styles-img">
+                      <img src="party.svg" class="party-img" alt="party"  />
+                      </a>
+            </div>
+
+            <div class="styles">
+            <a href="#" class="styles-img">
+              <img src="gym.svg" class="gym-img" alt="gym" />
+            </a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- customer review section -->
+
+    <section class="customer-review">
+        <h1 class="heading-customer-review">OUR HAPPY CUSTOMERS </h1>
+        <div class="arrows">
+        <img src="arrow-down-bold 2.svg" alt="arrow left"/>
+        <img src="arrow-down-bold 1.svg" alt="arrow right"/>
+        </div>
+
+        <div class="reviews-container">
+
+            <div class="users">
+                <img src="stars.svg" alt="ratings" />
+                <h1 class="username"> Sarah M. 
+                    <img src="verified-mark.svg" /> 
+                </h1>
+                <p class="user-message"> "I'm blown away by the quality and style of the clothes
+                    I received from Shop.co. From casual wear to elegant dresses, 
+                    every piece I've bought has exceeded my expectations.”
+               </p>
+            </div>
+
+            <div class="users">
+                <img src="stars.svg" alt="ratings" />
+                <h1 class="username"> Alex K. 
+                    <img src="verified-mark.svg" /> 
+                </h1>
+                <p class="user-message"> "Finding clothes that align with
+                     my personal style used to be a challenge until I discovered
+                      Shop.co. The range of options they offer is truly remarkable,
+                       catering to a variety of tastes and occasions.”
+               </p>
+            </div>
+             
+            <div class="users">
+                <img src="stars.svg" alt="ratings" />
+                <h1 class="username"> James L. 
+                    <img src="verified-mark.svg" /> 
+                </h1>
+                <p class="user-message"> "As someone who's always on the lookout for 
+                    unique fashion pieces, I'm thrilled to have stumbled upon Shop.co.
+                     The selection of clothes is not only diverse but also on-point 
+                     with the latest trends.”
+               </p>
+            </div>
+
+        </div>
+    </section>
+
+<!-- customer review section ends here -->
+
+
+    <!-- footer section -->
+
+<section class="footer">
+
+
+  <div class="floating-part">
+    <h1 class="floating-text">STAY UPTO DATE ABOUT OUR LATEST OFFERS </h1>
+    
+    <div class="extra-info">
+        <input type="text"  placeholder= "Enter your email address">
+      <button>Subscribe to Newsletter</button>
+          
+      </div>
+    
+  </div>
+
+<div class="main">
+    <div class="shop-co">
+        <img src="SHOP.CO (1).svg" class="logo-footer" alt="site logo" />
+        <p class="site-description">We have clothes that suits your style and 
+            which you're proud to wear. From women to men.
+        </p>
+        <div class="icons">
+        <img src="twitter.svg" class="social-media" alt="twitter"/>
+        <img src="facebook.svg" class="social-media" alt="facebook"/>
+        <img src="insta.svg" class="social-media" alt="insta"/>
+        <img src="git.svg" class="social-media" alt="github" />
+        </div>
+    </div>
+
+<div class="row-part1">
+    <div class="point-heading">
+      <h1 class="footer-heading">COMPNAY</h1>
+      <a href="#" class="points">About</a>
+      <a href="#" class="points">Features</a>
+      <a href="#" class="points">Works</a>
+      <a href="#" class="points">Career</a>
+    </div>
+
+
+    <div class="point-heading" >
+        <h1 class="footer-heading">HELP</h1>
+        <a href="#" class="points">Customer Support</a>
+        <a href="#" class="points">Delivery Details</a>
+        <a href="#" class="points">Terms & Conditions</a>
+        <a href="#" class="points"> Privacy Policy</a>
+</div>
+</div>
+
+<div class="row-part2">
+
+      <div class="point-heading" >
+        <h1 class="footer-heading">FAQ</h1>
+        <a href="#" class="points">Account</a>
+        <a href="#" class="points"> Manage Deliveries</a>
+        <a href="#" class="points"> Orders</a>
+        <a href="#" class="points">  Payments</a>
+      </div>
+
+
+      <div class="point-heading" >
+        <h1 class="footer-heading">RESOURCES</h1>
+        <a href="#" class="points">Account</a>
+        <a href="#" class="points"> Manage Deliveries</a>
+        <a href="#" class="points"> Orders</a>
+        <a href="#" class="points">  Payments</a>
+      </div>
+
+      </div>
+      
+     </div>
+</div>
+
+
+<div class="footer-lastpart">
+ 
+    <p class="lastpart-text">Shop.co © 2000-2023, All Rights Reserved</p>
+  
+    <img src="payments.svg" class="payments-icon" alt="payment-options"/>
+
+</div>
+
+</section>
+
+</body>
+</html>
+
+
+
+
+
+    
